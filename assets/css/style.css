@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lusitana', serif;
+}
+
+#port-jumbo {
+	border: 8px solid green;
+	border-radius: 10px;
+	width: 60%;
+	padding: 8em 4em;
+}
+
+#jumbo-div {
+	padding-top: 10%:
+	height: 100vh;
+	background-image: url(../images/L.jpeg);
+	/*background-color: #333;*/ /*off black*/
+	border-radius: 0; /*to remove jumbotron rounded corners*/
+}
+
+.jumbotron h1 {
+	color: #f2f2f2;
+}
+
+.btn a {
+	text-decoration: none;
+	color: #f2f2f2;
+}
