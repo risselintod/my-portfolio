@@ -15,7 +15,7 @@
 #jumbo-div {
 	padding-top: 10%:
 	height: 100vh;
-	background-image: url(../images/L.jpeg);
+	background-image: url(../images/tree.jpeg);
 	/*background-color: #333;*/ /*off black*/
 	border-radius: 0; /*to remove jumbotron rounded corners*/
 }
