@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Lusitana', serif;
+    font-family: 'Coiny', cursive;
 }
 
 #port-jumbo {
@@ -27,4 +27,27 @@
 .btn a {
 	text-decoration: none;
 	color: #f2f2f2;
+}
+
+#welcome {
+    background-image: url(../images/sealone.jpeg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    scroll-behavior: none;
+    height: 100vh;
+    padding-top: 20%;
+    border-radius: 0; /*remove jumbo's rounded corner*/
+    text-align: center;
+    /*opacity: 1.0;*/
+}
+
+#welcometext {
+	letter-spacing: 8px;
+}
+
+#fullstack {
+	letter-spacing: 8px;
+	margin-bottom: 8%;
 }
