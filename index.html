@@ -10,9 +10,13 @@
 	<!-- Fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
+    <!-- Animate -->
+
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 
     <!-- fav icon -->
     <link rel="icon" type="images/gif/png" href="assets/images/r.png">
@@ -30,70 +34,85 @@
 <body>
 
     <div id="welcome" class="container-fluid flex-center position-ref">
-        <div class="content">
-            <div class="title m-b-md">
-                <b><h1 id="welcometext">R I S S E L &nbsp I N T O D  </h1></b>
+        <div class="btn">
+            <div>
+                <b><h1 id="welcometext"><b id="R"> R </b> I S S E L &nbsp <b id="I"> I </b> N T O D  </h1></b>
                 <p id="fullstack"> FULL-STACK WEV DEVELOPER </p>
             </div>
 
-            <div class="down mt-5">        
+            <div class="down mt-5 fadeOutUp">        
                 <a href="#about">
                     <p class="mt-5 text-light">Learn More<br><i class="fas fa-chevron-down"></i></p>
                 </a>
             </div>
         </div>
-    </div>
+    </div> <!-- end welcome page -->
 
-	<section id="jumbotron-section">
-		<div id="jumbo-div" class="jumbotron mb-0">
-			<div id="port-jumbo" class="container">
-				<h1 class="text-center"> Rissel Intod </h1>
-				<p class="text-center lead text-dark"> This is my amazing Web Dev Portfolio </p>
-				<button class="btn btn-info btn-block">
-					<a href="#portfolio"> View my Portfolio </a>
-				</button>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+		<a class="navbar-brand" href="#">
+			<img id="logo" src="assets/images/r.png" width="45" height="45"> Portfolio
+		</a>
 
-			</div> <!-- end jumbo container -->
-		</div> <!-- end jumbotron -->
-	</section> <!-- end jumbo section -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div id="navbar-nav" class="collapse navbar-collapse">
+			<ul class="navbar-nav ml-auto">
+		
+				<li class="nav-item">
+					<a class="nav-link" href="#"> Projects </a>
+				</li>
+				<li class="nav-item">
+					<a id="logout-but" class="nav-link" href="#"> Contact </a>
+				</li>
+				<li class="nav-item">
+					<a id="logout-but" class="nav-link" href="#"> About </a>
+				</li>
+			</ul>
+		</div> <!-- end navbar nav -->
+	</nav> <!-- end nav -->
 
 	<section id="portfolio" class="container py-5">
-		<div class="row">
-			<div class="col-12 col-md-4 col-lg-4">
-				<div class="card text-center">
-					<img class="img-fulid card-img-top" src="assets/images/scate.gif">
-					<div class="card-body">
-						<h3 class="card-title"> Fret Top</h3>
-						<button class="btn btn-outline-info btn-block">
-						<a href="https://risselintod.github.io/frettop/" target="blank" class="text-dark"> Go to my website</a></button>
-					</div>
-				</div> <!-- end card -->
-			</div> <!-- end col -->
+		<dir>
+			<h1 class="text-center py-5 bg-light"> PROJECTS </h1>
+			<div class="row">
+				<div class="col-12 col-md-4 col-lg-4">
+					<div class="card text-center">
+						<img class="img-fulid card-img-top" src="assets/images/scate.gif">
+						<div class="card-body">
+							<h3 class="card-title"> Fret Top</h3>
+							<button class="btn btn-outline-info btn-block">
+							<a href="https://risselintod.github.io/frettop/" target="blank" class="text-dark"> Go to my website</a></button>
+						</div>
+					</div> <!-- end card -->
+				</div> <!-- end col -->
 
-			<div class="col-12 col-md-4 col-lg-4">
-				<div class="card text-center">
-					<img class="img-fulid card-img-top" src="assets/images/R.png">
-					<div class="card-body">
-						<h3 class="card-title"> Capstone 2</h3>
-						<p>This text describe my wedsite</p>
-						<button class="btn btn-outline-info btn-block"><a href="https://serene-stream-12989.herokuapp.com/"></a></button>
+				<div class="col-12 col-md-4 col-lg-4">
+					<div class="card text-center">
+						<img class="img-fulid card-img-top" src="assets/images/R.png">
+						<div class="card-body">
+							<h3 class="card-title"> Capstone 2</h3>
+							<p>This text describe my wedsite</p>
+							<button class="btn btn-outline-info btn-block"><a href="https://serene-stream-12989.herokuapp.com/"></a></button>
 
-					</div>
-				</div> <!-- end card -->
-			</div> <!-- end col -->
+						</div>
+					</div> <!-- end card -->
+				</div> <!-- end col -->
 
-			<div class="col-12 col-md-4 col-lg-4">
-				<div class="card text-center">
-					<img class="img-fulid card-img-top" src="assets/images/R.png">
-					<div class="card-body">
-						<h3 class="card-title"> Capstone 3</h3>
-						<p>This text describe my wedsite</p>
-						<button class="btn btn-outline-info btn-block">Link to my website</button>
-					</div>
-				</div> <!-- end card -->
-			</div> <!-- end col -->
+				<div class="col-12 col-md-4 col-lg-4">
+					<div class="card text-center">
+						<img class="img-fulid card-img-top" src="assets/images/R.png">
+						<div class="card-body">
+							<h3 class="card-title"> Capstone 3</h3>
+							<p>This text describe my wedsite</p>
+							<button class="btn btn-outline-info btn-block">Link to my website</button>
+						</div>
+					</div> <!-- end card -->
+				</div> <!-- end col -->
 
-		</div> <!-- end row -->
+			</div> <!-- end row -->
+		</dir>
 	</section> <!-- end section 1 -->
 
 	<section class="container mb-5">

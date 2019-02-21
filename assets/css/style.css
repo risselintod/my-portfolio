@@ -2,7 +2,9 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-    font-family: 'Coiny', cursive;
+	font-family: 'Merriweather', serif;
+	/*font-family: 'Coiny', cursive;*/
+	/*font-family: 'Montserrat', sans-serif;*/
 }
 
 #port-jumbo {
@@ -29,6 +31,10 @@
 	color: #f2f2f2;
 }
 
+#logo {
+	margin-right: 8%;
+}
+
 #welcome {
     background-image: url(../images/sealone.jpeg); 
     background-repeat: no-repeat;
@@ -45,9 +51,24 @@
 
 #welcometext {
 	letter-spacing: 8px;
+	font-size: 50px;
+	margin-top: 0px;
+}
+
+#R {
+	font-size: 60px;
+}
+
+#I {
+	font-size: 60px;
 }
 
 #fullstack {
 	letter-spacing: 8px;
 	margin-bottom: 8%;
+	font-size: 20px;
+}
+
+.card-img-top {
+	border-radius: 100px;
 }
