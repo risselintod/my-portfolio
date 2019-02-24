@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 	font-family: 'Merriweather', serif;
 	/*font-family: 'Coiny', cursive;*/
 	/*font-family: 'Montserrat', sans-serif;*/
@@ -20,6 +21,10 @@
 	background-image: url(../images/tree.jpeg);
 	/*background-color: #333;*/ /*off black*/
 	border-radius: 0; /*to remove jumbotron rounded corners*/
+}
+
+.navbar {
+	background-color: black;
 }
 
 .jumbotron h1 {
@@ -50,6 +55,10 @@
     /*opacity: 1.0;*/
 }
 
+#icon {
+	color: #d30c76;
+}
+
 #welcometext {
 	letter-spacing: 8px;
 	font-size: 50px;
@@ -74,7 +83,9 @@
 }
 
 #port {
-
+	font-size: 30px;
+	/*font-family: 'Italianno', cursive;*/
+	font-family: 'Acme', sans-serif;
 }
 
 .card-img-top {
@@ -88,6 +99,10 @@
 
 .position-ref {
     position: center;
+}
+
+#img {
+	border-radius: 200px;
 }
 
 

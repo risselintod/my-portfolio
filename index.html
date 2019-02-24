@@ -16,7 +16,7 @@
     <!-- Fonts -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet"> -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> -->
-    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Italianno|Acme" rel="stylesheet">
 
     <!-- fav icon -->
     <link rel="icon" type="images/gif/png" href="assets/images/r.png">
@@ -41,14 +41,14 @@
             </div>
 
             <div class="down btn mt-5 fadeOutUp">        
-                <a href="#about">
+                <a href="#home">
                     <p class="mt-5 text-light">Learn More<br><i class="fas fa-chevron-down"></i></p>
                 </a>
             </div>
         </div>
     </div> <!-- end welcome page -->
 
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+	<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
 		<a class="navbar-brand" href="#">
 			<img id="logo" src="assets/images/r.png" width="45" height="45"> <b id="port"> Portfolio </b>
 		</a>
@@ -61,24 +61,34 @@
 			<ul class="navbar-nav ml-auto">
 		
 				<li class="nav-item">
-					<a class="nav-link" href="#"> Projects </a>
+					<a class="nav-link" href="#home"> Home </a>
 				</li>
 				<li class="nav-item">
-					<a id="logout-but" class="nav-link" href="#"> About </a>
+					<a class="nav-link" href="#projects"> Projects </a>
 				</li>
 				<li class="nav-item">
-					<a id="logout-but" class="nav-link" href="#"> Contact </a>
+					<a id="logout-but" class="nav-link" href="#about"> About </a>
+				</li>
+				<li class="nav-item">
+					<a id="logout-but" class="nav-link" href="#contact"> Contact </a>
 				</li>
 			</ul>
 		</div> <!-- end navbar nav -->
 	</nav> <!-- end nav -->
 
+	<section class="container" id="home">
+		<div class="row">
+			<div class="col-12 col-md-4 col-lg-4">
+				
+			</div>
+		</div>
+	</section>
 
-	<section id="portfolio" class="container py-5">
+	<section id="projects" class="container py-5">
 		<dir>
 			<h1 class="text-center py-5 bg-light"> PROJECTS </h1>
 			<div class="row">
-				<div class="col-12 col-md-4 col-lg-4">
+				<div class="col-12 col-md-4 col-lg-3">
 					<div class="card text-center">
 						<img class="img-fulid card-img-top" src="assets/images/scate.gif">
 						<div class="card-body">
@@ -89,7 +99,7 @@
 					</div> <!-- end card -->
 				</div> <!-- end col -->
 
-				<div class="col-12 col-md-4 col-lg-4">
+				<div class="col-12 col-md-4 col-lg-3">
 					<div class="card text-center">
 						<img class="img-fulid card-img-top" src="assets/images/R.png">
 						<div class="card-body">
@@ -101,13 +111,24 @@
 					</div> <!-- end card -->
 				</div> <!-- end col -->
 
-				<div class="col-12 col-md-4 col-lg-4">
+				<div class="col-12 col-md-4 col-lg-3">
 					<div class="card text-center">
 						<img class="img-fulid card-img-top" src="assets/images/R.png">
 						<div class="card-body">
 							<h3 class="card-title"> Capstone 3</h3>
 							<p>This text describe my wedsite</p>
-							<button class="btn btn-outline-info btn-block">Link to my website</button>
+							<button class="btn btn-outline-info btn-block"><a href="https://queendessert.herokuapp.com/app/views/home.php"></a> Fret Store </button>
+						</div>
+					</div> <!-- end card -->
+				</div> <!-- end col -->
+
+				<div class="col-12 col-md-4 col-lg-3">
+					<div class="card text-center">
+						<img class="img-fulid card-img-top" src="assets/images/R.png">
+						<div class="card-body">
+							<h3 class="card-title"> Capstone 3</h3>
+							<p>This text describe my wedsite</p>
+							<button class="btn btn-outline-info btn-block"><a href="#"></a> FretTravel </button>
 						</div>
 					</div> <!-- end card -->
 				</div> <!-- end col -->
@@ -116,12 +137,12 @@
 		</dir>
 	</section> <!-- end section 1 -->
 
-	<section class="container mb-5">
+	<section id="about" class="container mb-5">
 		<h3 class="display-3 text-center bg-info">About the Developer</h3>
 
 		<div class="row">
 			<div class="col-12 col-md-4 col-lg-4">
-				<img class="img-fluid" src="assets/images/me.jpg">
+				<img id="img" class="img-fluid" src="assets/images/me.jpg">
 			</div> <!-- left side -->
 
 			<div class="col-12 col-md-8">
@@ -132,9 +153,43 @@
 		</div> <!-- end of row -->
 	</section> <!-- end section 2 -->
 
-	<footer class="footer bg-info">
-		<p class="text-center p-3 mb-0"> Rissel Intod | Tuitt Codind Bootcamp &copy; 2018</p>
-	</footer>
+	<section class="container" id="contact">
+		<small>
+			<div class="row">
+				<div id="icon" class="p-3 mt-2 mb-5 col-12 col-md-3 col-lg-3 text-center">
+					<i class="mb-3 fas fa-home"></i>
+					<h6> LOCATION </h6>
+					<p> O188A Guiho Cembo Makati City </p>
+				</div>
+				<div id="icon" class="p-3 mt-2 mb-5 col-12 col-md-3 col-lg-3 text-center">
+					<i class="mb-3 fas fa-phone-square"></i>
+					<h6> PHONE </h6>
+					<p> (+63)9121741562 </p>
+				</div>
+				<div id="icon" class="p-3 mt-2 mb-5 col-12 col-md-3 col-lg-3 text-center">
+					<i class="mb-3 fas fa-envelope"></i>
+					<h6> EMAIL </h6>
+					<p> rv.intod@gmail.com </p>
+				</div>
+				<div id="icon" class="p-3 mt-2 mb-5 col-12 col-md-3 col-lg-3 text-center">
+					<i class="mb-3 fas fa-share-square"></i>
+					<h6> SOCIAL MEDIA </h6>
+					<p>
+						<a target="_blank" href="https://www.facebook.com/rissel16intod"> <i class="fab fa-facebook-square mx-1"></i> </a>
+						<a target="_blank" href=""> <i class="fab fa-twitter-square mx-1"></i> </a>
+						<a target="_blank" href=""> <i class="fab fa-google-plus-square mx-1"></i> </a>
+						<a target="_blank" href=""> <i class="fab fa-instagram mx-1"></i> </a>  
+					</p>
+				</div>
+			</div>
+		</small>
+	</section>
+
+	<footer class="footer bg-dark text-light">
+		<small>
+			<p class="text-center p-3 mb-0"> &copy; 2018 Tuitt Coding Bootcamp | Rissel Intod </p>
+		</small>
+	</footer> <!-- end footer -->
 
 
 
