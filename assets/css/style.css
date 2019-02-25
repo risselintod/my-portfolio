@@ -36,6 +36,23 @@
 	color: #f2f2f2;
 }
 
+#welcometext,
+#fullstack,
+#learn {
+	opacity: 1.0;
+}
+/*
+#name {
+	background-image: url(../images/r.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    border-radius: 0;*/ /*remove jumbo's rounded corner*/
+/*    text-align: center;
+    opacity: 0.2;
+}
+*/
 #logo {
 	margin-left: 25%;
 	margin-right: 5%;
@@ -58,6 +75,27 @@
 #icon {
 	color: #d30c76;
 }
+
+#send {
+	background-color: #fc6cbe;
+}
+
+.view {
+	background-color: #fc6cbe;
+}
+
+.view:hover {
+	background-color: black;
+}
+
+#send:hover {
+	background-color: black;
+}
+
+/*.like {
+	background-color: #fc6cbe;
+}
+*/
 
 #welcometext {
 	letter-spacing: 8px;
@@ -88,9 +126,6 @@
 	font-family: 'Acme', sans-serif;
 }
 
-.card-img-top {
-	border-radius: 100%;
-}
 .flex-center {
     align-items: center;
     display: flex;
@@ -102,11 +137,20 @@
 }
 
 #img {
-	border-radius: 200px;
+	border-radius: 400px;
 }
 
+#devicon {
+	width: 100px;
+	height: 100px;
+}
 
-
+#download {
+	background-color: #fc6cbe;
+}
+#download:hover {
+	background-color: black;
+}
 
 
 

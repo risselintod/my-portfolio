@@ -10,7 +10,8 @@
 	<!-- Fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
-    <!-- Animate -->
+    <!-- Devicon -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 
     <!-- Fonts -->
@@ -21,8 +22,8 @@
     <!-- fav icon -->
     <link rel="icon" type="images/gif/png" href="assets/images/r.png">
 
-	<!-- animate css -->
-	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+	<!-- Animate css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 	<!-- bootstrap css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -34,21 +35,21 @@
 <body>
 
     <div id="welcome" class="container-fluid flex-center position-ref">
-        <div">
+        <div id="name">
             <div class="container">
-                <b><h1 id="welcometext"><b id="R"> R </b> I S S E L &nbsp <b id="I"> I </b> N T O D  </h1></b>
-                <p id="fullstack"> FULL-STACK WEV DEVELOPER </p>
+                <b><h1 class="animated fadeInDown" id="welcometext"><b id="R"> R </b> I S S E L &nbsp <b id="I"> I </b> N T O D  </h1></b>
+                <p class="animated fadeInUp" id="fullstack"> FULL-STACK WEV DEVELOPER </p>
             </div>
 
             <div class="down btn mt-5 fadeOutUp">        
                 <a href="#home">
-                    <p class="mt-5 text-light">Learn More<br><i class="fas fa-chevron-down"></i></p>
+                    <p id="learn" class="text-light animated zoomIn">Learn More<br><i class="fas fa-chevron-down"></i></p>
                 </a>
             </div>
         </div>
     </div> <!-- end welcome page -->
 
-	<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+	<nav id="navB" class="navbar navbar-expand-lg navbar-dark sticky-top">
 		<a class="navbar-brand" href="#">
 			<img id="logo" src="assets/images/r.png" width="45" height="45"> <b id="port"> Portfolio </b>
 		</a>
@@ -64,10 +65,10 @@
 					<a class="nav-link" href="#home"> Home </a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#projects"> Projects </a>
+					<a class="nav-link fadeOutUp" href="#projects"> Projects </a>
 				</li>
 				<li class="nav-item">
-					<a id="logout-but" class="nav-link" href="#about"> About </a>
+					<a id="logout-but fadeOutUp" class="nav-link" href="#about"> About </a>
 				</li>
 				<li class="nav-item">
 					<a id="logout-but" class="nav-link" href="#contact"> Contact </a>
@@ -77,85 +78,95 @@
 	</nav> <!-- end nav -->
 
 	<section class="container" id="home">
-		<div class="row">
-			<div class="col-12 col-md-4 col-lg-4">
-				
+		<div class="row text-center p-2 offset-lg-1">
+			<div class="col-12 col-md-3 col-lg-3 m-3 p-4">
+				<img class="mb-3" width="140" height="140" src="assets/images/dev.png">
+				<p> WEB DEVELOPMENT </p>
+			</div>
+			<div class="col-12 col-md-3 col-lg-3 m-3 p-4">
+				<img class="mb-3" width="140" height="140" src="assets/images/design.png">
+				<p> WEB DESIGN </p>
+			</div>
+			<div class="col-12 col-md-3 col-lg-3 m-3 p-4">
+				<img class="mb-3" width="140" height="140" src="assets/images/mobile.png">
+				<p> RESPONSIVE DESIGN </p>
 			</div>
 		</div>
-	</section>
+	</section> <!-- end home -->
 
-	<section id="projects" class="container py-5">
+	<section id="about" class="container-fluid bg-light">
+		<div class="row text-center p-4">
+			<div class="col-12 col-md-4 col-lg-3 mt-2">
+				<img id="img" class="img-fluid" src="assets/images/gradpic.jpg">
+				<a id="download" class="btn btn-block text-light mt-5" href="assets/images/MY_RESUME.pdf" type="download" download> Download Resume </a>
+			</div> <!-- left side -->
+			<div class="col-12 col-md-4 col-lg-3">
+				<h1 class="text-center">About Me</h1>
+				<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div> <!-- right side -->
+			<div class="col-12 col-md-4 col-lg-6">
+				<div class="col-lg-2 devicon">
+
+				</div>
+			</div>
+
+		</div> <!-- end of row -->
+	</section> <!-- end section 2 -->
+
+	<section id="projects" class="container py-3">
 		<dir>
-			<h1 class="text-center py-5 bg-light"> PROJECTS </h1>
-			<div class="row">
-				<div class="col-12 col-md-4 col-lg-3">
-					<div class="card text-center">
-						<img class="img-fulid card-img-top" src="assets/images/scate.gif">
+			<h1 class="text-center"> My Work </h1>
+			<div class="row p-5">
+				<div class="col-12 col-md-4 col-lg-4">
+					<div class="text-center">
+						<img class="img-fulid" height="170" width="330" src="assets/images/scate.gif">
 						<div class="card-body">
-							<h3 class="card-title"> Fret Top</h3>
-							<button class="btn btn-outline-info btn-block">
-							<a href="https://risselintod.github.io/frettop/" target="blank" class="text-dark"></a> CHECK OUT </button>
+							<a target="_blank" href="https://risselintod.github.io/frettop/" class="text-light"><button class="btn btn-outline-dark btn-block bg-dark text-light"> Madelicios </button></a>
 						</div>
 					</div> <!-- end card -->
 				</div> <!-- end col -->
 
-				<div class="col-12 col-md-4 col-lg-3">
-					<div class="card text-center">
-						<img class="img-fulid card-img-top" src="assets/images/R.png">
+				<div class="col-12 col-md-4 col-lg-4">
+					<div class="text-center">
+						<img class="img-fulid" height="170" width="330" src="assets/images/R.png">
 						<div class="card-body">
-							<h3 class="card-title"> Capstone 2</h3>
-							<p>This text describe my wedsite</p>
-							<button class="btn btn-outline-info btn-block"><a href="https://serene-stream-12989.herokuapp.com/"></a>  Book2GO </button>
+							<a target="_blank" href="https://serene-stream-12989.herokuapp.com/" class="text-light"><button class="btn btn-outline-dark btn-block bg-dark text-light"> Book2GO </button></a>
 
 						</div>
 					</div> <!-- end card -->
 				</div> <!-- end col -->
 
-				<div class="col-12 col-md-4 col-lg-3">
-					<div class="card text-center">
-						<img class="img-fulid card-img-top" src="assets/images/R.png">
+				<div class="col-12 col-md-4 col-lg-4">
+					<div class="text-center">
+						<img class="img-fulid" height="170" width="330" src="assets/images/R.png">
 						<div class="card-body">
-							<h3 class="card-title"> Capstone 3</h3>
-							<p>This text describe my wedsite</p>
-							<button class="btn btn-outline-info btn-block"><a href="https://queendessert.herokuapp.com/app/views/home.php"></a> Fret Store </button>
-						</div>
-					</div> <!-- end card -->
-				</div> <!-- end col -->
-
-				<div class="col-12 col-md-4 col-lg-3">
-					<div class="card text-center">
-						<img class="img-fulid card-img-top" src="assets/images/R.png">
-						<div class="card-body">
-							<h3 class="card-title"> Capstone 3</h3>
-							<p>This text describe my wedsite</p>
-							<button class="btn btn-outline-info btn-block"><a href="#"></a> FretTravel </button>
+							<a target="_blank" href="#" class="text-light"><button class="btn btn-outline-dark btn-block bg-dark text-light"> FretTravel </button></a>
 						</div>
 					</div> <!-- end card -->
 				</div> <!-- end col -->
 
 			</div> <!-- end row -->
+			<div class="row like bg-secondary mt-4 p-4">
+				<div class="col-12 col-md-5 col-lg-5 text-center">
+					<small>
+						<h2> Like What You See? </h2>
+					<p> Check out my resume to learn more. </p>
+					</small>
+				</div>
+				<div class="col-12 col-md-3 col-lg-3 offset-sm-3 mt-3 text-center">
+					<a class="text-light" target="_blank" href="assets/images/MY_RESUME.pdf"><button class="btn btn-block view text-light"> View Resume </button></a>
+				</div>
+			</div>
 		</dir>
 	</section> <!-- end section 1 -->
 
-	<section id="about" class="container mb-5">
-		<h3 class="display-3 text-center bg-info">About the Developer</h3>
-
-		<div class="row">
-			<div class="col-12 col-md-4 col-lg-4">
-				<img id="img" class="img-fluid" src="assets/images/me.jpg">
-			</div> <!-- left side -->
-
-			<div class="col-12 col-md-8">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div> <!-- right side -->
-		</div> <!-- end of row -->
-	</section> <!-- end section 2 -->
-
 	<section class="container" id="contact">
 		<small>
-			<div class="row">
+			<h1 class="text-center mt-5"> Contact Information </h1>
+			<hr>
+			<div class="row mt-5">
 				<div id="icon" class="p-3 mt-2 mb-5 col-12 col-md-3 col-lg-3 text-center">
 					<i class="mb-3 fas fa-home"></i>
 					<h6> LOCATION </h6>
@@ -174,20 +185,43 @@
 				<div id="icon" class="p-3 mt-2 mb-5 col-12 col-md-3 col-lg-3 text-center">
 					<i class="mb-3 fas fa-share-square"></i>
 					<h6> SOCIAL MEDIA </h6>
-					<p>
-						<a target="_blank" href="https://www.facebook.com/rissel16intod"> <i class="fab fa-facebook-square mx-1"></i> </a>
-						<a target="_blank" href=""> <i class="fab fa-twitter-square mx-1"></i> </a>
-						<a target="_blank" href=""> <i class="fab fa-google-plus-square mx-1"></i> </a>
-						<a target="_blank" href=""> <i class="fab fa-instagram mx-1"></i> </a>  
-					</p>
+					<h6>
+						<a id="icon" target="_blank" href="https://www.facebook.com/rissel16intod"> <i class="fab fa-facebook-square mx-1"></i> </a>
+						<a id="icon" target="_blank" href="https://twitter.com/rissel_intod"> <i class="fab fa-twitter-square mx-1"></i> </a>
+						<a id="icon" target="_blank" href="https://plus.google.com/collection/gtBAeF"> <i class="fab fa-google-plus-square mx-1"></i> </a>
+						<a id="icon" target="_blank" href="https://www.instagram.com/rissel_intod/"> <i class="fab fa-instagram mx-1"></i> </a>  
+					</h6>
 				</div>
 			</div>
 		</small>
+			<div class="row">
+				<div class="col-12">
+					
+				</div>
+			</div>
+			
+			<div class="row border p-5 mb-5 bg-light">
+				<div class="col-12 col-md-12 col-lg-12 mb-4">
+					<h2 class="text-center"> Get in Touch </h2>
+				</div>
+				<div class="col-12 col-md-6 col-lg-6 p-2">
+					<input type="text" name="name" id="name" class="form-control" placeholder="Enter your fullname * ">
+				</div>
+				<div class="col-12 col-md-6 col-lg-6 p-2">
+					<input type="email" name="email" id="email" class="form-control" placeholder="Enter your email address * ">
+				</div>
+				<div class="col-12 col-md-12 col-lg-12">
+					<textarea type="text" name="message" id="message" class="form-control mt-3" rows="10" placeholder="Your Message *"></textarea>
+				</div>
+				<div class="col-12 col-md-3 col-lg-3 offset-lg-9">
+					<button type="submit" id="send" class="btn btn-block mt-3 text-light"> Send Message </button>
+				</div>
+			</div>
 	</section>
 
-	<footer class="footer bg-dark text-light">
+	<footer class="footer bg-secondary text-dark">
 		<small>
-			<p class="text-center p-3 mb-0"> &copy; 2018 Tuitt Coding Bootcamp | Rissel Intod </p>
+			<p class="text-center p-3 mb-0"> <b>Rissel &nbspIntod</b> &copy; 2018. &nbsp All rights reserved </p>
 		</small>
 	</footer> <!-- end footer -->
 
