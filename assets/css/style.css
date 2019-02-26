@@ -152,6 +152,11 @@
 	background-color: black;
 }
 
+#name,
+#email {
+	
+}
+
 
 
 
@@ -204,7 +209,7 @@
 		color: black;
 	}
 	#logo {
-		margin-left: %;
+		margin-left: 2%;
 		margin-right: 5%;
 	}
 
