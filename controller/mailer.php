@@ -52,7 +52,7 @@ $message = $_POST['message'];
 	    $mail->Body = $body;
 
 	    
-	    header('location: ../views/home.php');
+	    header('location: ../index.php');
 	
 	    $mail->send();
 
@@ -60,15 +60,6 @@ $message = $_POST['message'];
 	    echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
 	}
 
-
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 6d50435ad342406f1074535a8cd76b4cddc5e9c0
-
-	// Send email notification to customer
-	// ==============================================================================
 
 
  ?>
