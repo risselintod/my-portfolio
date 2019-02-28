@@ -247,7 +247,7 @@
 			</div>
 			
 			<form action="/controller/mailer.php" method="POST">
-				<div id="get" class="row border mb-5">
+				<div id="get" class="row border p-4 mb-5">
 					<div class="col-12 col-md-12 col-lg-12 mb-4">
 						<h2 class="text-center"> Get in Touch </h2>
 					</div>
