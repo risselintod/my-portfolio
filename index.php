@@ -246,28 +246,25 @@
 				</div>
 			</div>
 			
-			<form action="/controller/mailer.php" method="POST">
-				<div id="get" class="row border p-4 mb-5">
+			<div id="get" class="row border p-5 mb-5">
+				<!-- <form action="/contoller/mailer.php" method="POST"> -->
 					<div class="col-12 col-md-12 col-lg-12 mb-4">
 						<h2 class="text-center"> Get in Touch </h2>
 					</div>
-					<div class="col-12 col-md-12 col-lg-12 offset-lg-3 p-2">
-						<div class="row">
-							<div class="col-12 col-md-6 col-lg-6">
-								<input type="text" name="name" id="name" class="form-control" placeholder="Enter your fullname * ">
-								<input type="email" name="email" id="email" class="form-control mt-4" placeholder="Enter your email address * ">
-							</div>
-						</div>
-						
+					<div class="col-12 col-md-6 col-lg-6 p-2">
+						<input type="text" name="name" id="name" class="form-control" placeholder="Enter your fullname * ">
 					</div>
-					<div class="col-12 col-md-10 col-lg-6 offset-lg-3">
-						<textarea type="text" name="message" id="message" class="form-control mt-4" rows="10" placeholder="Your Message *"></textarea>
+					<div class="col-12 col-md-6 col-lg-6 p-2">
+						<input type="email" name="email" id="email" class="form-control" placeholder="Enter your email address * ">
 					</div>
-					<div class="col-12 col-md-3 col-lg-3 offset-lg-6">
+					<div class="col-12 col-md-12 col-lg-12">
+						<textarea type="text" name="message" id="message" class="form-control mt-3" rows="10" placeholder="Your Message *"></textarea>
+					</div>
+					<div class="col-12 col-md-3 col-lg-3 offset-lg-9">
 						<button type="submit" id="send" class="btn btn-block mt-3 text-light"> Send Message </button>
 					</div>
-				</div>
-			</form>
+				<!-- </form> -->
+			</div>
 	</section>
 
 	<footer class="footer bg-secondary text-dark">
