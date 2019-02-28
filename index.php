@@ -251,13 +251,13 @@
 					<div class="col-12 col-md-12 col-lg-12 mb-4">
 						<h2 class="text-center"> Get in Touch </h2>
 					</div>
-					<div class="col-12 col-md-12 col-lg-12 p-2">
+					<div class="col-12 col-md-10 col-lg-10 offset-lg-1 p-2">
 						<input type="text" name="name" id="name" class="form-control" placeholder="Enter your fullname * ">
 					</div>
-					<div class="col-12 col-md-12 col-lg-12 p-2">
+					<div class="col-12 col-md-10 col-lg-10 offset-lg-1 p-2">
 						<input type="email" name="email" id="email" class="form-control" placeholder="Enter your email address * ">
 					</div>
-					<div class="col-12 col-md-12 col-lg-12">
+					<div class="col-12 col-md-10 col-lg-10 offset-lg-1">
 						<textarea type="text" name="message" id="message" class="form-control mt-3" rows="10" placeholder="Your Message *"></textarea>
 					</div>
 					<div class="col-12 col-md-3 col-lg-3 offset-lg-9">
