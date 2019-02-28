@@ -260,10 +260,10 @@
 						</div>
 						
 					</div>
-					<div class="col-12 col-md-10 col-lg-6 offset-lg-1">
+					<div class="col-12 col-md-10 col-lg-6 offset-lg-2">
 						<textarea type="text" name="message" id="message" class="form-control mt-3" rows="10" placeholder="Your Message *"></textarea>
 					</div>
-					<div class="col-12 col-md-3 col-lg-3 offset-lg-4">
+					<div class="col-12 col-md-3 col-lg-3 offset-lg-5">
 						<button type="submit" id="send" class="btn btn-block mt-3 text-light"> Send Message </button>
 					</div>
 				</div>
