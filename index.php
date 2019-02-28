@@ -255,7 +255,7 @@
 						<div class="row">
 							<div class="col-12 col-md-6 col-lg-6">
 								<input type="text" name="name" id="name" class="form-control" placeholder="Enter your fullname * ">
-								<input type="email" name="email" id="email" class="form-control" placeholder="Enter your email address * ">
+								<input type="email" name="email" id="email" class="form-control mt-" placeholder="Enter your email address * ">
 							</div>
 						</div>
 						
