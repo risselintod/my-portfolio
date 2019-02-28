@@ -253,7 +253,7 @@
 					</div>
 					<div class="col-12 col-md-12 col-lg-12 offset-lg-3 p-2">
 						<div class="row">
-							<div class="col-12 col-md-5 col-lg-5">
+							<div class="col-12 col-md-6 col-lg-6">
 								<input type="text" name="name" id="name" class="form-control" placeholder="Enter your fullname * ">
 								<input type="email" name="email" id="email" class="form-control mt-4" placeholder="Enter your email address * ">
 							</div>
@@ -263,7 +263,7 @@
 					<div class="col-12 col-md-10 col-lg-6 offset-lg-3">
 						<textarea type="text" name="message" id="message" class="form-control mt-4" rows="10" placeholder="Your Message *"></textarea>
 					</div>
-					<div class="col-12 col-md-3 col-lg-3 offset-lg-5">
+					<div class="col-12 col-md-3 col-lg-3 offset-lg-6">
 						<button type="submit" id="send" class="btn btn-block mt-3 text-light"> Send Message </button>
 					</div>
 				</div>
