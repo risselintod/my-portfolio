@@ -246,15 +246,15 @@
 				</div>
 			</div>
 			
-			<div id="get" class="row border p-5 mb-5">
-				<form action="/controller/mailer.php" method="POST">
+			<form action="/controller/mailer.php" method="POST">
+				<div id="get" class="row border p-5 mb-5">
 					<div class="col-12 col-md-12 col-lg-12 mb-4">
 						<h2 class="text-center"> Get in Touch </h2>
 					</div>
-					<div class="col-12 col-md-6 col-lg-6 p-2">
+					<div class="col-12 col-md-12 col-lg-12 p-2">
 						<input type="text" name="name" id="name" class="form-control" placeholder="Enter your fullname * ">
 					</div>
-					<div class="col-12 col-md-6 col-lg-6 p-2">
+					<div class="col-12 col-md-12 col-lg-12 p-2">
 						<input type="email" name="email" id="email" class="form-control" placeholder="Enter your email address * ">
 					</div>
 					<div class="col-12 col-md-12 col-lg-12">
@@ -263,8 +263,8 @@
 					<div class="col-12 col-md-3 col-lg-3 offset-lg-9">
 						<button type="submit" id="send" class="btn btn-block mt-3 text-light"> Send Message </button>
 					</div>
-				</form>
-			</div>
+				</div>
+			</form>
 	</section>
 
 	<footer class="footer bg-secondary text-dark">
