@@ -38,7 +38,7 @@
         <div id="name">
             <div class="container">
                 <b><h1 class="animated fadeInDown" id="welcometext"><b id="R"> R </b> I S S E L &nbsp <b id="I"> I </b> N T O D  </h1></b>
-                <p class="animated fadeInUp" id="fullstack"> FULL-STACK WEV DEVELOPER </p>
+                <p class="animated fadeInUp" id="fullstack"> FULL-STACK WEB DEVELOPER </p>
             </div>
 
             <div class="down btn mt-5 fadeOutUp">        
