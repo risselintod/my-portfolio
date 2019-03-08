@@ -98,7 +98,7 @@
 		<div class="row text-center p-4">
 			<div class="col-12 col-md-4 col-lg-3 mt-2">
 				<img id="img" class="img-fluid" src="assets/images/gradpic.jpg">
-				<a id="download" class="btn btn-block text-light mt-5" href="assets/images/RisselIntod_Resume.docx" type="download" download><i class="fas fa-download"></i>&nbsp Download Resume </a>
+				<a id="download" class="btn btn-block text-light mt-5" href="assets/images/risselintod_resume.docx" type="download" download><i class="fas fa-download"></i>&nbsp Download Resume </a>
 			</div> <!-- left side -->
 			<div class="col-12 col-md-4 col-lg-3">
 				<h1 class="text-center p-4">About Me</h1>
@@ -202,7 +202,7 @@
 					</small>
 				</div>
 				<div class="col-12 col-md-3 col-lg-3 offset-sm-3 mt-3 text-center">
-					<a class="text-light" target="_blank" href="assets/images/RisselIntod_Resume.pdf"><button class="btn btn-block view text-light"> View Resume </button></a>
+					<a class="text-light" target="_blank" href="assets/images/risselintod_resume.pdf"><button class="btn btn-block view text-light"> View Resume </button></a>
 				</div>
 			</div>
 		</dir>
