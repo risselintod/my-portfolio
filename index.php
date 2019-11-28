@@ -155,6 +155,15 @@
 					<div class="col-4 col-lg-3 p-2 devicon">
 						<img height="80" src="assets/images/heroku.svg">
 					</div>
+					<div class="col-4 col-lg-3 p-2 devicon">
+						<img height="80" src="assets/images/angularjs.svg">
+					</div>
+					<div class="col-4 col-lg-3 p-2 devicon">
+						<img height="80" src="assets/images/visualstudio.svg">
+					</div>
+					<div class="col-4 col-lg-3 p-2 devicon">
+						<img height="80" src="assets/images/reactjs.svg">
+					</div>
 				</div>
 			</div>
 
