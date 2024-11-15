@@ -212,7 +212,8 @@
 					</small>
 				</div>
 				<div class="col-12 col-md-3 col-lg-3 offset-sm-3 mt-3 text-center">
-					<a class="text-light" target="_blank" href="assets/images/risselintod_resume.pdf"><button class="btn btn-block view text-light"> View Resume </button></a>
+					<!-- <a class="text-light" target="_blank" href="assets/images/risselintod_resume.pdf"><button class="btn btn-block view text-light"> View Resume </button></a> -->
+					<a class="text-light" target="_blank" href="assets/docs/Intod_Rissel(2024).pdf"><button class="btn btn-block view text-light"> View Resume </button></a>
 				</div>
 			</div>
 		</dir>
@@ -226,12 +227,12 @@
 				<div id="icon" class="p-3 mt-2 mb-5 col-12 col-md-3 col-lg-3 text-center">
 					<i class="mb-3 fas fa-home"></i>
 					<h6> LOCATION </h6>
-					<p> O188A Guiho Cembo Makati City </p>
+					<p> Block 163 Lot 3 Sorongon St. Central Bicutan, Taguig City </p>
 				</div>
 				<div id="icon" class="p-3 mt-2 mb-5 col-12 col-md-3 col-lg-3 text-center">
 					<i class="mb-3 fas fa-phone-square"></i>
 					<h6> PHONE </h6>
-					<p> (+63)9121741562 </p>
+					<p> (+63)9755723855 </p>
 				</div>
 				<div id="icon" class="p-3 mt-2 mb-5 col-12 col-md-3 col-lg-3 text-center">
 					<i class="mb-3 fas fa-envelope"></i>
@@ -245,7 +246,6 @@
 						<a id="icon" target="_blank" href="https://www.facebook.com/risselTV"> <i class="fab fa-facebook-square mx-1"></i> </a>
 						<a id="icon" target="_blank" href="https://www.youtube.com/@engr.rissel"> <i class="fab fa-youtube-square mx-1"></i> </a>
 						<a id="icon" target="_blank" href="https://www.instagram.com/engr.rissel"> <i class="fab fa-instagram mx-1"></i> </a>  
-						<a id="icon" target="_blank" href="https://www.tiktok.com/@engr_rissel"> <i class="fab fa-tiktok-square mx-1"></i> </a>
 					</h6>
 				</div>
 			</div>
