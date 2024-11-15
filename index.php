@@ -242,10 +242,10 @@
 					<i class="mb-3 fas fa-share-square"></i>
 					<h6> SOCIAL MEDIA </h6>
 					<h6>
-						<a id="icon" target="_blank" href="https://www.facebook.com/rissel16intod"> <i class="fab fa-facebook-square mx-1"></i> </a>
-						<a id="icon" target="_blank" href="https://twitter.com/rissel_intod"> <i class="fab fa-twitter-square mx-1"></i> </a>
-						<a id="icon" target="_blank" href="https://plus.google.com/u/1/collection/gtBAeF"> <i class="fab fa-google-plus-square mx-1"></i> </a>
-						<a id="icon" target="_blank" href="https://www.instagram.com/rissel_intod/"> <i class="fab fa-instagram mx-1"></i> </a>  
+						<a id="icon" target="_blank" href="https://www.facebook.com/risselTV"> <i class="fab fa-facebook-square mx-1"></i> </a>
+						<a id="icon" target="_blank" href="https://www.youtube.com/@engr.rissel"> </a><i class="fa-brands fa-square-youtube mx-1"></i> </a>
+						<a id="icon" target="_blank" href="https://www.tiktok.com/@engr_rissel"> <i class="fa-brands fa-tiktok"></i> </a>
+						<a id="icon" target="_blank" href="https://www.instagram.com/engr.rissel/"> <i class="fa-brands fa-square-instagram"></i> </a>  
 					</h6>
 				</div>
 			</div>
