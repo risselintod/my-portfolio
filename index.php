@@ -243,9 +243,9 @@
 					<h6> SOCIAL MEDIA </h6>
 					<h6>
 						<a id="icon" target="_blank" href="https://www.facebook.com/risselTV"> <i class="fab fa-facebook-square mx-1"></i> </a>
-						<a id="icon" target="_blank" href="https://www.youtube.com/@engr.rissel"> </a><i class="fa-brands fa-square-youtube mx-1"></i> </a>
-						<a id="icon" target="_blank" href="https://www.tiktok.com/@engr_rissel"> <i class="fa-brands fa-tiktok"></i> </a>
-						<a id="icon" target="_blank" href="https://www.instagram.com/engr.rissel/"> <i class="fa-brands fa-square-instagram"></i> </a>  
+						<a id="icon" target="_blank" href="https://www.youtube.com/@engr.rissel"> <i class="fab fa-youtube-square mx-1"></i> </a>
+						<a id="icon" target="_blank" href="https://www.instagram.com/engr.rissel"> <i class="fab fa-instagram mx-1"></i> </a>  
+						<a id="icon" target="_blank" href="https://www.tiktok.com/@engr_rissel"> <i class="fab fa-tiktok-square mx-1"></i> </a>
 					</h6>
 				</div>
 			</div>
